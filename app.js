@@ -16,12 +16,12 @@ import { renderChampion } from './render-champions.js';
 const championList = document.getElementById('champion-list');
 
 function displayChampions() {
-    candyList.innerHtml = '';
+    championList.innerHtml = '';
 
     for (let champion of champions) {
-const championEl = renderChampion(champion);
-championList.append(championEl);
+        const championEl = renderChampion(champion);
+        championList.append(championEl);
 
-  }
+    }
 }
 displayChampions();
