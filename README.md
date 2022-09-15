@@ -30,7 +30,7 @@ Repeat the following process 4 times, with 4 different domains, all in the same 
 
 > Note: do this process **one array at a time**. Do not write 4 arrays, then 4 render functions, etc. Please work through the first array, then the first render function, then the first display function.
 
-Come up with a domain for this data (lie 'dogs' or 'candies'). Let's assume you picked 'candies':
+Come up with a domain for this data (lie 'dogs' or 'candies'). This article assumes you picked 'candies':
 
 1.  Rename `array-one.js` to `candies-data.js`. In that data file:
     -   create an exported variable with an array of at least 3 objects for that domain

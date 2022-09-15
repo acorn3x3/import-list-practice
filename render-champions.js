@@ -4,7 +4,7 @@ export function renderChampion(champion) {
     
         
         const headerEl = document.createElement('h2');
-               headerEl.textContent = champion.name;
+         headerEl.textContent = champion.name;
 
         const pEl = document.createElement('p');
         pEl.textContent = champion.type + 'of' + champion.area;

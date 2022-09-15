@@ -1,6 +1,5 @@
 export const champion = [
-
-        const champion = {
+      
             {
                 name: 'Aatrox',
                 type: 'Darkin',
@@ -16,7 +15,4 @@ export const champion = [
                 type: 'Knight',
                 area: 'Demacia',
             },
-
-        };
-
-    ];
+            ];
